@@ -1,0 +1,143 @@
+*{
+   margin: 0;
+   padding: 0;
+
+}
+
+header{
+   background-color: rgba(74, 109, 224, 0.856);
+   height: 200px;
+   color: rgb(2, 2, 1);
+   text-align: center;
+   font-family:  cursive;
+}
+header h1{
+   font-size: 110px;
+   letter-spacing: 7px;
+   text-shadow: 2px 2px 5px rgb(92, 100, 212);
+}
+header h2{
+   font-size: 30px;
+   letter-spacing: 3px;
+   text-shadow: 2px 2px 5px blanchedalmond;
+}
+nav{
+  height: 39px;
+  background-color: black;
+  text-align: center;
+  box-shadow: 2px 2px 20px rgb(61, 118, 202);
+  position: sticky;
+  top: 0;
+}
+nav li {
+   display: inline-block;
+   padding: 10px 30px 0 0;
+}
+nav a {
+   padding: 5px ;
+   text-decoration: none;
+   background-color: rgb(7, 8, 8);
+   color: bisque;
+   border-radius: 5px;
+   box-shadow: 2px 2px 5px black;
+   
+}
+nav a:hover {
+   color: blue;
+   box-shadow: 4px 4px 4px rgb(214, 206, 206);  
+}
+.conture{
+   display: grid; 
+   grid-template-columns: 1fr 3fr; 
+   width: 80%;
+   max-width: 900px;
+   margin: auto;
+   gap: 30px;
+}
+
+.conture  aside img{
+  width: 200px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  border: 2px solid black;
+  box-shadow: 2px 2px 5px wheat;
+ }
+ .conture  aside ul{
+  list-style-type: none;
+  text-align: left;
+ margin: 15px;
+ line-height: 20px ;
+ }
+ .conture  section{
+  font-size: 17px;
+ }
+ .conture  section p{
+  text-align: justify;
+  margin: 10px;
+ }
+
+ .pointer p {
+  text-align: left;
+  padding-left: 10px;
+  margin-top: 5px;
+  
+ }
+ .pointer span {
+  font-weight: bold;
+  
+ }
+ progress {
+  font-weight: bold;
+  width: 90%;
+  height: 20px;
+  
+ }
+.titre {
+  padding: 5px;
+  box-shadow: 1px 1px 5px rgb(57, 112, 230);
+  margin:20px 10px 10px 20px ;
+  text-align: center;
+} 
+
+ #boite-photo{
+   display: flex;
+   text-align: center;
+   
+ }
+ section.item p {
+  text-align: center;
+  color: rgb(108, 178, 243);
+  font-size: 14px;
+  padding: 10px;
+} 
+section.item img {
+   width: 200px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  border: 2px solid black;
+  box-shadow: 2px 2px 5px wheat;
+
+ } 
+
+
+footer {
+  background-color: rgb(42, 112, 202);
+  text-align: center;
+  color: black;
+  box-shadow: 2px 2px 5px rgb(214, 206, 206);  
+}
+
+footer p {
+  height: 30px;
+  position: relative;
+  top: 10px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-shadow:  2px 2px 5px rgb(214, 206, 206);
+}
+.par {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px; 
+}

@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    display: flex;
+    padding: 50px;
+    background:rgb(132, 160, 212);
+}
+body .tete {
+    display: flex;
+    padding: 10px;
+    max-height: 100%;
+    
+}
+
+
+.hero {
+    max-width: 690px;
+    width:100%;
+    padding: 30px;
+    text-align: center;
+    background: #f8f5f5;
+    border-radius: 50px;
+    box-shadow:4px 20px 10px 10px rgb(18, 18, 19);
+    
+}
+.hero p {
+    font-size: 13px;
+
+}
+
+.hero button {
+    width: 30%;
+    padding: 14px;
+    border: none;
+    margin-top: 9px;
+    font-size: 17px;
+    background: #89cdeccb;
+    border-radius: 1000px;
+    color: #161414;
+    cursor: pointer;
+    box-shadow:3px 3px 3px 6px rgb(18, 18, 19);
+}
+
+.hero.button {
+    padding: 12px 0;
+
+}
+.button, li, i {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button .row select {
+    color: #110e0e;
+    padding: 5px 10px;
+    font-size: 18px;
+    border: 2px solid #080808;
+    border-style: double;
+    background: none;
+
+}
+
+.button .exchange {
+    color: #246fe0;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+.button i:active {
+    transform: scale(0.9);
+}
+
+.groupy {
+    border: 2px solid #020208;
+    background: #8ac1ee;
+
+}
+
+.groupy.text-input {
+    display: flex;
+}
+
+.text-input .to-text{
+    border-left: 2px solid #0000;
+}
+
+.text-input textarea {
+    resize: none;
+    height: 100px;
+    width: 100%;
+    background: none;
+    border: none;
+    font-size: 18px;
+    border-radius: 100px;
+    padding: 10px 15px;
+
+}
+.h1{
+    text-align: left;
+    text-indent: 0%;
+}
+ 
+
